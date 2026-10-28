@@ -38,7 +38,7 @@ The interface features a modern grocery shopping concept, a prominent hero secti
 
 ## 📸 Project Preview
 
-*A screenshot of the completed landing page will be added here.*
+![FinestMart Grocery Store Preview](127.0.0.1_5500_index.html%20%2814%29.png)
 
 ## 📁 Project Status
 
