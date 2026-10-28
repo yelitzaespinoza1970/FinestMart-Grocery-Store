@@ -1,0 +1,25 @@
+nav.nav_primary {
+  ul {
+    @include reset-list();
+    gap: 50px;
+    a {
+      color: $grey;
+      font-weight: 300;
+      text-decoration: none;
+      &.active,
+      &:hover {
+        color: $orange;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 80%;
+          height: 2px;
+          background-color: $orange;
+          bottom: -10px;
+          left: 10%;
+        }
+      }
+    }
+  }
+}

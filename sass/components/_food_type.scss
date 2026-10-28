@@ -1,0 +1,23 @@
+.food_type {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+  &_item {
+    &_img {
+      width: 90px;
+    }
+    &_title {
+      color: #403c39;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    &_description {
+      color: $grey;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}
